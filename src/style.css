@@ -5,3 +5,32 @@
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
+body {
+  background-color: green;
+}
+.card {
+  background-color: white;
+  border-radius: 25px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.middle {
+  text-align: center;
+  font-family: "Times New Roman", serif;
+  height: auto;
+  margin: auto;
+  position: relative;
+}
+.bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: scale(-1, -1);
+}
